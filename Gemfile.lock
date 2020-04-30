@@ -5,7 +5,7 @@ GEM
     faraday (0.9.0)
       multipart-post (>= 1.2, < 3)
     httpclient (2.3.4.1)
-    json (1.8.1)
+    json (2.3.0)
     method_source (0.8.2)
     multipart-post (2.0.0)
     pry (0.9.12.6)
@@ -20,5 +20,8 @@ PLATFORMS
 DEPENDENCIES
   faraday
   httpclient
-  json
+  json (>= 2.3.0)
   pry
+
+BUNDLED WITH
+   1.17.3
